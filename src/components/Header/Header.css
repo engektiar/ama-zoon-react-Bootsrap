@@ -1,10 +1,14 @@
- .logo{
+.header-full{
+  height: 70px;
+  width: 100%;
+}
+.logo{
    width: 120px;
    height: 40px;
    
  }
  .header-from{
-   width: 900px;
+   width: 920px;
  }
  .gust{ 
    display: flex;
@@ -21,4 +25,7 @@
    font-size: 16px;
    text-transform: capitalize;
    text-align: center;
+ }
+ .basket{
+   color: #fff;
  }

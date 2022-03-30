@@ -3,11 +3,13 @@
  import {Navbar,Container,NavDropdown,Nav,Form,FormControl} from "react-bootstrap";
  import "./Header.css";
 import { Button } from 'bootstrap';
+import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
+
  const Header = () => {
    return (
      <div>
-      <Navbar bg="dark" variant={'dark'} expand="lg">
-  <Container fluid>
+      <Navbar className='header-full' bg="dark" variant={'dark'} expand="lg">
+         <Container fluid>
     <Navbar.Brand href="#">
       <img className='logo' src={logo}></img>
     </Navbar.Brand>
@@ -39,9 +41,12 @@ import { Button } from 'bootstrap';
         <span className='gust'>your</span>
          <span className='headerLink'>prime</span>
         </Nav.Link>
-          
+        <Nav.Link >
+          <span className='basket'><LocalGroceryStoreIcon/></span> 
+           <span className='basket'>0</span>
+        </Nav.Link>
       </Nav>
-      
+               
     </Navbar.Collapse>
   </Container>
 </Navbar>

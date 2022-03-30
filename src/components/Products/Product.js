@@ -1,12 +1,12 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 import Cart from "./Cart/Cart";
-import { Container } from "react-bootstrap";
+
 const Product = () => {
   return (
     <div>
-      <Container>
-        <Cart />
-      </Container>
+      <Cart />
+      <Footer />
     </div>
   );
 };

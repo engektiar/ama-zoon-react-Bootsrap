@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-top">
-        <a className="footer-top-text" href="#">
+        <a className="footertext" href="#">
           Back to Top
         </a>
       </div>
@@ -38,25 +38,35 @@ const Footer = () => {
           </Col>
           <Col md={3}>
             <div className="left-footer">
-              <h5>Get to Know Us</h5>
+              <h5>	
+                    Make Money with Us</h5>
               <ul>
                 <li className="list-item">
-                  <a href="#">Careers</a>
+                  <a href="#">Sell products on Amazon</a>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <a href="#">Sell on Amazon Business</a>
                 </li>
                 <li>
-                  <a href="#">About Amazon</a>
+                  <a href="#">Sell apps on Amazon</a>
                 </li>
                 <li>
-                  <a href="#">Investor Relations</a>
+                  <a href="#">Become an Affiliate</a>
                 </li>
                 <li>
-                  <a href="#">Amazon Devices</a>
+                  <a href="#">Advertise Your Products</a>
                 </li>
                 <li>
-                  <a href="#">Amazon Science</a>
+                  <a href="#">Self-Publish with Us</a>
+                </li>
+                <li>
+                  <a href="#">Host an Amazon Hub</a>
+                </li>
+                <li>
+                  <a href="#">See More Make Money</a>
+                </li>
+                <li>
+                  <a href="#">With us</a>
                 </li>
               </ul>
             </div>
@@ -64,51 +74,51 @@ const Footer = () => {
 
           <Col md={3}>
             <div className="left-footer">
-              <h5>Get to Know Us</h5>
+              <h5>	
+                      Amazon Payment Products</h5>
               <ul>
                 <li className="list-item">
-                  <a href="#">Careers</a>
+                  <a href="#">Amazon Business Card</a>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <a href="#">Shop with Points</a>
                 </li>
                 <li>
-                  <a href="#">About Amazon</a>
+                  <a href="#">Reload Your Balance</a>
                 </li>
                 <li>
-                  <a href="#">Investor Relations</a>
+                  <a href="#">Amazon Currency Converter</a>
                 </li>
-                <li>
-                  <a href="#">Amazon Devices</a>
-                </li>
-                <li>
-                  <a href="#">Amazon Science</a>
-                </li>
+                 
               </ul>
             </div>
           </Col>
 
           <Col md={3}>
             <div className="left-footer">
-              <h5>Get to Know Us</h5>
+              <h5>	
+Let Us Help You</h5>
               <ul>
                 <li className="list-item">
-                  <a href="#">Careers</a>
+                  <a href="#">Amazon and COVID-19</a>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <a href="#">Your Account</a>
                 </li>
                 <li>
-                  <a href="#">About Amazon</a>
+                  <a href="#">Your Orders</a>
                 </li>
                 <li>
-                  <a href="#">Investor Relations</a>
+                  <a href="#">Shipping Rates & Policies</a>
                 </li>
                 <li>
-                  <a href="#">Amazon Devices</a>
+                  <a href="#">Returns & Replacements</a>
                 </li>
                 <li>
-                  <a href="#">Amazon Science</a>
+                  <a href="#">Amazon Assistant</a>
+                </li>
+                <li>
+                  <a href="#">Help</a>
                 </li>
               </ul>
             </div>
